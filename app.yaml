@@ -8,3 +8,6 @@ resources:
   cpu: 1
   memory_gb: 2
   disk_size_gb: 10
+
+env_variables:
+  CORSANYWHERE_WHITELIST: 'https://app.indie.tools,http://localhost:3000'
